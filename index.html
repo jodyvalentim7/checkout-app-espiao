@@ -419,11 +419,12 @@ function jltmaNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 
         // Lista de nomes masculinos
         var names_masc = [
-            'João', 'José', 'Antonio', 'Francisco', 'Carlos', 'Paulo', 'Pedro',
-            'Lucas', 'Marcos', 'Luiz', 'Gabriel', 'Rafael', 'Daniel', 'Bruno',
-            'Felipe', 'Gustavo', 'André', 'Fernando', 'Diego', 'Rodrigo', 'Thiago',
-            'Eduardo', 'Leonardo', 'Vinicius', 'Matheus', 'Ricardo', 'Roberto',
-            'Alexandre', 'Renato', 'Marcelo'
+            'Ricardo', 'Bruno', 'Ana', 'Miguel', 'Sofia', 'Carlos', 'Rita', 'Pedro',
+'Mariana', 'André', 'Cláudia', 'João', 'Inês', 'Fernando', 'Laura',
+'Tiago', 'Vanessa', 'Paulo', 'Helena', 'Rui', 'Daniela', 'Gonçalo',
+'Marta', 'Alexandre', 'Patrícia', 'Hugo', 'Carla', 'José', 'Beatriz',
+'Fábio', 'Susana', 'Lucas', 'Mónica', 'Eduardo', 'Sandra'
+
         ];
 
         var option = {
@@ -455,12 +456,12 @@ function jltmaNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
                 Notiflix.Notify.Warning(msg_final, option);
             }
 
-            // Define o intervalo de 40 segundos para a próxima notificação
-            setTimeout(show_notification, 40000);
+            // Define o intervalo de 20 segundos para a próxima notificação
+            setTimeout(show_notification, 20000);
         }
 
-        // Primeira notificação após 40 segundos
-        setTimeout(show_notification, 40000);
+        // Primeira notificação após 8 segundos
+        setTimeout(show_notification, 80000);
     </script>
 
 
